@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>我的第一个bootstrap网站</title>
+  </head>
+  <body>
+    <!-- navigation bar area -->
+    <!-- fix-top 固定导航栏 -->
+    <nav class="navbar navbar-expand-lg bg-primary bg-gradient navbar-dark fixed-top shadow">
+      <div class="container">
+        <a href="#" class="navbar-brand">YOUHESS编程网</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <!-- navbar-toggler-icon 添加汉堡包的样式 -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <div class="nav-link">前端知识</div>
+            </li>
+            <li class="nav-item">
+              <div class="nav-link">后端知识</div>
+            </li>
+            <li class="nav-item">
+              <div class="nav-link">数据库知识</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- first section -->
+    <section class="bg-gradient bg-primary text-light text-center text-md-start pt-10">
+      <div class="container">
+        <div class="d-flex">
+          <div>
+            <!-- text-warning 添加了字体颜色 -->
+            <h1>成为一个出色的<span class="text-warning">前端工程师</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptate sequi aut eos. Fuga laboriosam sit tempore qui odit nobis omnis alias impedit. Tempora voluptate architecto, id harum, pariatur quos voluptates dolore aut porro quas natus nulla asperiores doloribus odio.</p>
+            <button type="button" class="btn btn-light btn-lg">开始学习！</button>
+          </div>
+          <!-- w-50 width ; d-none : display:none ; -->
+          <img class="w-50 d-none d-md-block" src="./images/showcase.svg" alt="showcase" />
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,128L20,122.7C40,117,80,107,120,122.7C160,139,200,181,240,186.7C280,192,320,160,360,154.7C400,149,440,171,480,186.7C520,203,560,213,600,186.7C640,160,680,96,720,90.7C760,85,800,139,840,165.3C880,192,920,192,960,192C1000,192,1040,192,1080,208C1120,224,1160,256,1200,272C1240,288,1280,288,1320,272C1360,256,1400,224,1420,208L1440,192L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- second sections -->
+    <section class="p-5 text-dark">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12">
+            <h3 class="mb-3 text-center">现在注册账号你的开始编程之旅吧！</h3>
+            <div class="heading-line"></div>
+          </div>
+          <div class="col-md-8 col-lg-6">
+            <div class="input-group">
+              <!-- 到达md边框口才会便成50% -->
+              <input type="text" class="form-control" placeholder="请输入您的邮箱号码" />
+              <button class="btn btn-primary btn-lg" type="submit">Go</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- third section -->
+    <section class="p-5">
+      <div class="container">
+        <!-- g-s: gap 4 -->
+        <div class="row g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="card-title">前端学习</div>
+                <div class="card-text text-start mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dignissimos qui atque earum repudiandae, aliquid id quia et. Dolor unde aliquid a ea voluptatibus similique ex quasi rerum vel molestiae.</div>
+                <a href="#" class="btn btn-primary">开始旅程</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="card-title">后端学习</div>
+                <div class="card-text text-start mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dignissimos qui atque earum repudiandae, aliquid id quia et. Dolor unde aliquid a ea voluptatibus similique ex quasi rerum vel molestiae.</div>
+                <a href="#" class="btn btn-dark">开始旅程</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="card-title">数据库学习</div>
+                <div class="card-text text-start mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dignissimos qui atque earum repudiandae, aliquid id quia et. Dolor unde aliquid a ea voluptatibus similique ex quasi rerum vel molestiae.</div>
+                <a href="#" class="btn btn-primary">开始旅程</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section  forth -->
+    <section class="bg-gradient bg-primary text-light">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,256L20,261.3C40,267,80,277,120,282.7C160,288,200,288,240,261.3C280,235,320,181,360,165.3C400,149,440,171,480,160C520,149,560,107,600,122.7C640,139,680,213,720,213.3C760,213,800,139,840,128C880,117,920,171,960,165.3C1000,160,1040,96,1080,74.7C1120,53,1160,75,1200,96C1240,117,1280,139,1320,165.3C1360,192,1400,224,1420,240L1440,256L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z"
+        ></path>
+      </svg>
+      <div class="container">
+        <div class="row justify-content-between align-items-center g-4">
+          <div class="col-md">
+            <img src="./images/1.svg" alt="computer" class="img-fluid" />
+          </div>
+          <div class="col-md">
+            <h2>课程介绍</h2>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quis voluptate aspernatur at blanditiis nostrum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis corporis alias quaerat, iste iusto rerum aspernatur dolorum similique et? Neque animi officia eos error reiciendis deserunt dolor nesciunt sequi.</p>
+            <button type="button" class="btn btn-dark">START</button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-between align-items-center g-4">
+          <div class="col-md">
+            <h2>课程介绍</h2>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quis voluptate aspernatur at blanditiis nostrum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis corporis alias quaerat, iste iusto rerum aspernatur dolorum similique et? Neque animi officia eos error reiciendis deserunt dolor nesciunt sequi.</p>
+            <button type="button" class="btn btn-dark">START</button>
+          </div>
+          <div class="col-md">
+            <img src="./images/2.svg" alt="computer" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,256L20,261.3C40,267,80,277,120,282.7C160,288,200,288,240,261.3C280,235,320,181,360,165.3C400,149,440,171,480,160C520,149,560,107,600,122.7C640,139,680,213,720,213.3C760,213,800,139,840,128C880,117,920,171,960,165.3C1000,160,1040,96,1080,74.7C1120,53,1160,75,1200,96C1240,117,1280,139,1320,165.3C1360,192,1400,224,1420,240L1440,256L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- sections fifth -->
+    <section class="p-5">
+      <div class="container">
+        <h2 class="text-center">常见问题</h2>
+        <div class="heading-line"></div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item shadow mt-5">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Accordion Item #1</button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+            </div>
+          </div>
+          <div class="accordion-item shadow mt-5">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Accordion Item #2</button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            </div>
+          </div>
+          <div class="accordion-item shadow mt-5">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Accordion Item #3</button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first
+                glance, a bit more representative of how this would look in a real-world application.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section p6 -->
+    <section class="p-5">
+      <div class="container">
+        <h2 class="text-center">讲师介绍</h2>
+        <div class="heading-line"></div>
+        <p class="lead text-center mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, odio.</p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img src="./images/01-man.jpeg" alt="" class="mb-3 rounded-circle" />
+                <h3 class="card-title">张三</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cupiditate dicta laborum perferendis iusto aliquam obcaecati aliquid, itaque ratione facilis optio nobis similique vero, ab quis impedit eum! Distinctio, reiciendis.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img src="./images/02-man.jpeg" alt="" class="mb-3 rounded-circle" />
+                <h3 class="card-title">张4</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cupiditate dicta laborum perferendis iusto aliquam obcaecati aliquid, itaque ratione facilis optio nobis similique vero, ab quis impedit eum! Distinctio, reiciendis.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img src="./images/03-man.jpeg" alt="" class="mb-3 rounded-circle" />
+                <h3 class="card-title">张5</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cupiditate dicta laborum perferendis iusto aliquam obcaecati aliquid, itaque ratione facilis optio nobis similique vero, ab quis impedit eum! Distinctio, reiciendis.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img src="./images/04-man.jpeg" alt="" class="mb-3 rounded-circle" />
+                <h3 class="card-title">张6</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cupiditate dicta laborum perferendis iusto aliquam obcaecati aliquid, itaque ratione facilis optio nobis similique vero, ab quis impedit eum! Distinctio, reiciendis.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 联系我们 listgroup -->
+    <section class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">联系我们</h2>
+        <div class="heading-line"></div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">电话：%%%%%%%%</li>
+          <li class="list-group-item">邮箱：8383838383</li>
+          <li class="list-group-item">地址：hdsiaodhusa</li>
+        </ul>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="p-5 bg-dark text-white text-center">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2022</p>
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
